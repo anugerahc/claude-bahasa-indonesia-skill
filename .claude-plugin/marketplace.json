@@ -16,7 +16,7 @@
       "version": "1.0.0",
       "description": "Plugin untuk memaksa Claude merespons menggunakan Full Bahasa Indonesia kasual (lu-gue).",
       "entry": "dist/index.js",
-      "type": "mcp-server",
+      "type": "prompt-rules",
       "homepage": "https://github.com/anugerahc/claude-bahasa-indonesia-skill",
       "owner": {
         "name": "Anugerah Christian",
