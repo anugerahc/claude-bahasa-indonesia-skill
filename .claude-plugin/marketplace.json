@@ -1,0 +1,27 @@
+{
+  "name": "claude-bahasa-indonesia-marketplace",
+  "displayName": "Claude Bahasa Indonesia Marketplace",
+  "version": "1.0.0",
+  "description": "Katalog marketplace universal untuk plugin Bahasa Indonesia",
+  "owner": {
+    "name": "Anugerah Christian",
+    "email": "anugerahchristian@github.com",
+    "github": "anugerahc"
+  },
+  "plugins": [
+    {
+      "id": "claude-bahasa-indonesia-skill",
+      "name": "claude-bahasa-indonesia-skill",
+      "displayName": "Claude Bahasa Indonesia Skill",
+      "version": "1.0.0",
+      "description": "Plugin untuk memaksa Claude merespons menggunakan Full Bahasa Indonesia kasual (lu-gue).",
+      "entry": "CLAUDE.md",
+      "type": "prompt-rules",
+      "homepage": "https://github.com/anugerahc/claude-bahasa-indonesia-skill",
+      "owner": {
+        "name": "Anugerah Christian",
+        "github": "anugerahc"
+      }
+    }
+  ]
+}
