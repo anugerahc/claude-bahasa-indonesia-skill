@@ -2,7 +2,7 @@
   "name": "claude-bahasa-indonesia-marketplace",
   "displayName": "Claude Bahasa Indonesia Marketplace",
   "version": "1.0.0",
-  "description": "Katalog marketplace untuk plugin Bahasa Indonesia",
+  "description": "Katalog marketplace hybrid untuk plugin Bahasa Indonesia",
   "owner": {
     "name": "Anugerah Christian",
     "email": "anugerahchristian@github.com",
@@ -10,13 +10,27 @@
   },
   "plugins": [
     {
-      "id": "claude-bahasa-indonesia-skill",
-      "name": "claude-bahasa-indonesia-skill",
-      "displayName": "Claude Bahasa Indonesia Skill",
+      "id": "claude-bahasa-indonesia-agent-rules",
+      "name": "claude-bahasa-indonesia-agent-rules",
+      "displayName": "Claude Bahasa Indonesia (Agent Rules Mode)",
       "version": "1.0.0",
-      "description": "Plugin untuk memaksa Claude merespons menggunakan Full Bahasa Indonesia kasual (lu-gue).",
+      "description": "Mengubah preferensi bahasa Claude menjadi Bahasa Indonesia kasual via rule injection.",
       "entry": "dist/index.js",
-      "type": "prompt-rules",
+      "type": "agent-rules",
+      "homepage": "https://github.com/anugerahc/claude-bahasa-indonesia-skill",
+      "owner": {
+        "name": "Anugerah Christian",
+        "github": "anugerahc"
+      }
+    },
+    {
+      "id": "claude-bahasa-indonesia-mcp",
+      "name": "claude-bahasa-indonesia-mcp",
+      "displayName": "Claude Bahasa Indonesia (MCP Server Mode)",
+      "version": "1.0.0",
+      "description": "Mengubah preferensi bahasa Claude menjadi Bahasa Indonesia kasual via Model Context Protocol (MCP).",
+      "entry": "dist/index.js",
+      "type": "mcp-server",
       "homepage": "https://github.com/anugerahc/claude-bahasa-indonesia-skill",
       "owner": {
         "name": "Anugerah Christian",
