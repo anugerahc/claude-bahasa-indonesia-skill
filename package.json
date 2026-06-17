@@ -1,0 +1,24 @@
+{
+  "name": "claude-bahasa-indonesia-skill",
+  "version": "1.0.0",
+  "description": "Plugin untuk Prompt menggunakan Full Bahasa Indonesia",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "claude-bahasa-indonesia-skill": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "plugin",
+    "indonesian"
+  ],
+  "author": "Anugerah Christian",
+  "license": "MIT"
+}
