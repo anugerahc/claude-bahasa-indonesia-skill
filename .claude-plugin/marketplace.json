@@ -10,7 +10,7 @@
       "name": "Claude Bahasa Indonesia Skill",
       "version": "1.0.0",
       "description": "Plugin untuk memaksa Claude merespons menggunakan Full Bahasa Indonesia kasual (lu-gue).",
-      "entry": "./index.js",
+      "entry": "../dist/index.js",
       "type": "mcp-server"
     }
   ]
