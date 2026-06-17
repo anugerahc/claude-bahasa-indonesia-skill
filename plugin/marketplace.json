@@ -1,11 +1,17 @@
 {
-  "name": "claude-bahasa-indonesia-skill",
-  "displayName": "Claude Bahasa Indonesia Skill",
+  "name": "claude-bahasa-indonesia-marketplace",
+  "displayName": "Claude Bahasa Indonesia Marketplace",
   "version": "1.0.0",
-  "description": "Plugin untuk Prompt menggunakan Full Bahasa Indonesia (Gaya Kasual / Lu-Gue)",
+  "description": "Katalog marketplace untuk plugin Bahasa Indonesia",
   "author": "Anugerah Christian",
-  "homepage": "https://github.com/anugerahc/claude-bahasa-indonesia-skill",
-  "entry": "index.js",
-  "type": "mcp-server",
-  "scopes": ["commands", "prompts"]
+  "plugins": [
+    {
+      "id": "claude-bahasa-indonesia-skill",
+      "name": "Claude Bahasa Indonesia Skill",
+      "version": "1.0.0",
+      "description": "Plugin untuk memaksa Claude merespons menggunakan Full Bahasa Indonesia kasual (lu-gue).",
+      "entry": "index.js",
+      "type": "mcp-server"
+    }
+  ]
 }
