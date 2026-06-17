@@ -16,7 +16,7 @@
       "version": "1.0.0",
       "description": "Mengubah preferensi bahasa Claude menjadi Bahasa Indonesia kasual via rule injection (.md).",
       "entry": "dist/bhs-indo.md",
-      "type": "agent-rules",
+      "type": "prompt-rules",
       "homepage": "https://github.com/anugerahc/claude-bahasa-indonesia-skill",
       "owner": {
         "name": "Anugerah Christian",
